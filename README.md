@@ -18,9 +18,11 @@ LICENSE README.md data/ raw/ ← raw CSVs from yfinance clean/ ← cleaned/parqu
    source env/bin/activate    # or `env\Scripts\activate` on Windows
 
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
 3. Run the first notebook:
+   ```bash
    jupyter notebook notebooks/01_data_ingest.ipynb
 
 
